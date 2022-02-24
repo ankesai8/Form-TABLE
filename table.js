@@ -19,6 +19,7 @@ function add(){
     document.getElementById("Burger").checked == true ? s.push("Burger"):s;
     document.getElementById("Fried rice").checked == true ? s.push("Fried rice"):s;
     return s;
+    };
     var cell6= newrow.insertCell(5);
     cell6.innerHTML= food();
     var cell7= newrow.insertCell(6);
@@ -26,8 +27,6 @@ function add(){
     var cell8= newrow.insertCell(7);
     cell8.innerHTML=document.getElementById("Country").value;
     document.getElementById("form").reset();
-    
-    };
 }
 function Validation()  
 {  
