@@ -38,7 +38,7 @@ button{
 }
 button:hover{
     cursor: pointer;
-    background: rgb(241, 44, 9);
+    background: blue;
 }
 #address,#Pincode,#Country{
     margin-left: 30px;
@@ -53,7 +53,7 @@ button:hover{
     margin-left:12px;
 }
 td,th{
-    padding: 5px;
+    padding: 50px;
 }
 @media screen and (max-width: 780px) {
     #div1{
