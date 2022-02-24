@@ -11,8 +11,7 @@ function add(){
     cell4.innerHTML=document.getElementById("Pincode").value;
     var cell5= newrow.insertCell(4);
     cell5.innerHTML=document.getElementById("Gender").value;
-    
-     let food = () =>{
+    let food = () =>{
     let s=[];
     if(document.getElementById("Dosa").checked == true)  s.push("Dosa");
     if(document.getElementById("Idli").checked == true) s.push("Idli");
@@ -20,7 +19,6 @@ function add(){
     document.getElementById("Burger").checked == true ? s.push("Burger"):s;
     document.getElementById("Fried rice").checked == true ? s.push("Fried rice"):s;
     return s;
-    
     var cell6= newrow.insertCell(5);
     cell6.innerHTML= food();
     var cell7= newrow.insertCell(6);
